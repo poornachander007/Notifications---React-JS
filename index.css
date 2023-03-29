@@ -1,0 +1,41 @@
+/* Write your code here. */
+.info {
+  background-color: #0b69ff;
+}
+.success {
+  background-color: #2dca73;
+}
+.warning {
+  background-color: #ffb800;
+}
+.error {
+  background-color: #ff0b37;
+}
+.cardDiv {
+  display: flex;
+  margin: 20px;
+}
+img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+#root {
+  padding: 45px;
+  height: 100vh;
+}
+.cards_container {
+  height: 100vh;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.heading {
+  text-align: center;
+}
+.page_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
